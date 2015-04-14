@@ -9,7 +9,7 @@ public class JavaRectangleDrawingComponent extends JComponent {
 
         for(int i=0; i<10; ++i) {
             for(int j=0; j<20; ++j) {
-                g2D.drawRect(240+40*(j),160+40*(i),40,40);
+                g2D.drawRect(220+40*(j),140+40*(i),40,40);
             }
         }
     }
