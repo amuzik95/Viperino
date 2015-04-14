@@ -12,6 +12,10 @@ public class Main {
         jframe.setTitle("THE FATHER OF SNAKES!");
         jframe.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
+        Field.init();
+        Field.setSnake();
+        Field.setFruit();
+
         JavaRectangleDrawingComponent JRDC = new JavaRectangleDrawingComponent();
         jframe.add(JRDC);
     }
